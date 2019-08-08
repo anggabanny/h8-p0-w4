@@ -1,12 +1,16 @@
 function changeMe(arr) {
-    // you can only write your code here!
+    for(var i = 0; i < arr.length; i++){
+        console.log(arr[i]);
+    }
 }
 
 // TEST CASES
 changeMe([
     ['Christ', 'Evans', 'Male', 1982],
     ['Robert', 'Downey', 'Male']
-]); // 1. Christ Evans:
+]);
+
+// 1. Christ Evans:
 // { firstName: 'Christ',
 //   lastName: 'Evans',
 //   gender: 'Male',
