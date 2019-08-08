@@ -1,13 +1,30 @@
 function cariModus(arr) {
-    // you can only write your code here!
-    // tampung frekuensi, frekuensi terbesar, modus assign 0
-    // looping 2 kali, bandingkan i dgn j serta j tdk sama i 
-    // masukan ke frekuensi lalu bandingkan dengan frek terbesar
-    // tampung modus dengan i 
-    // jika frekuensi nol return -1 
-    // cek angka sama semua, tampung variable
-    //looping k lalu masukan hasilnya ke variabel tadi 
-    // jika jumlah angka sama return -1
+    var checkArray = 0;
+    var count = 0;
+    var angka = 0;
+    for(var i = 0; i < arr.length; i++){
+        var sementaraCount = 0;
+        var sementaraAngka = 0;
+        for(var j = 0; j < arr.length; j++){
+            
+            if (arr[j] == arr[i]) {
+                sementaraCount++;
+                sementaraAngka = arr[i]
+            } else if (arr[j] != arr[i]){
+                checkArray++;
+            }
+        }
+        if (sementaraCount > count) {
+            count = sementaraCount;
+            angka = sementaraAngka;
+        }
+    }
+
+    if (count == 1 || count == 0 || checkArray == 0) {
+        return -1
+    } else {
+        return angka
+    }
 }
 
 // TEST CASES
