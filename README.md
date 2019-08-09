@@ -11,7 +11,7 @@ Hacktiv8 Phase 0 Week 4: Logics in JavaScript
 ### [Exercises 7] Urutkan Abjad 🔥
 ### [Exercises 8] Tukar Ukuran 🔥
 ### [Exercises 9] Cek AB 🔥
-### [Exercises 10] Change me 🔜
+### [Exercises 10] Change me 🔥
 ### [Exercises 11] Shopping Time! 🔜
 ### [Exercises 12] Toko X 🔜
 ### [Exercises 13] Deep Sum 🔜
