@@ -1,6 +1,18 @@
 function changeMe(arr) {
+    var output = {}
     for(var i = 0; i < arr.length; i++){
-        console.log(arr[i]);
+        output.firsName = arr[i][0];
+        output.lastName = arr[i][1];
+        output.gender = arr[i][2];
+
+        if (arr[i][3] == undefined) {
+            output.age = 'Invalid Birth Year';
+        } else {
+            output.age = 2019 - arr[i][3];
+        }
+        var tagName = (i+1)+'. '+output.firsName+ ' ' +output.lastName;
+        console.log(tagName);
+        console.log(output);
     }
 }
 
