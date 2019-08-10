@@ -14,7 +14,7 @@ Hacktiv8 Phase 0 Week 4: Logics in JavaScript
 ### [Exercises 10] Change me 🔥
 ### [Exercises 11] Shopping Time! 🔥
 ### [Exercises 12] Toko X 🔥
-### [Exercises 13] Deep Sum 🔜
-### [Exercises 14] Naik Angkot 🔜
-### [Exercises 15] Highest Score 🔜
-### [Exercises 16] Graduates 🔜
+### [Exercises 13] Deep Sum 🔥
+### [Exercises 14] Naik Angkot 🔥
+### [Exercises 15] Highest Score 🔥
+### [Exercises 16] Graduates 🔥
