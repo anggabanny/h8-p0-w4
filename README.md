@@ -1,7 +1,7 @@
 # h8-p0-w4 🦊📑
 Hacktiv8 Phase 0 Week 4: Logics in JavaScript
 
-### [Challenge] LIVE CODE 🔜
+### [Challenge] LIVE CODE :100:
 ### [Exercises 1] Angka Prima 🔥
 ### [Exercises 2] Faktor Persekutuan Terbesar 🔥
 ### [Exercises 3] Cari Median 🔥
