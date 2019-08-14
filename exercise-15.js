@@ -43,7 +43,6 @@ console.log(highestScore([{
 //   wolves: { name: 'Alexei', score: 85 }
 // }
 
-
 console.log(highestScore([{
         name: 'Alexander',
         score: 100,

@@ -22,30 +22,30 @@ harta karun yang mereka temukan selama perjalanan.
 */
 
 function finder(treasure) {
-  var count = 0;
-  var angka = [1,2,3,4,5,6,7,8,9,0]
-  for (var i = 0; i < treasure.length; i++) {
-      for (var j = 0; j < treasure[i].length; j++) {
-          if (treasure[i][j] == 'h' || treasure[i][j] == 'a' || treasure[i][j] == 'r' || treasure[i][j] == 't' || treasure[i][j] == 'k' || treasure[i][j] == 'u' || treasure[i][j] == 'n') {
-              count++;
-          }
-          for(var k = 0; k < angka.length; k++){
-              if (treasure[i][j] == angka[k]) {
-                  count -= treasure[i][j]
-              }
-              
-              if (count == 0) {
-                  return 'Harta karun telah direbut bajak laut lain!'
-              }
-          }
-      }
-  }
+    var count = 0;
+    var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+    for (var i = 0; i < treasure.length; i++) {
+        for (var j = 0; j < treasure[i].length; j++) {
+            if (treasure[i][j] == 'h' || treasure[i][j] == 'a' || treasure[i][j] == 'r' || treasure[i][j] == 't' || treasure[i][j] == 'k' || treasure[i][j] == 'u' || treasure[i][j] == 'n') {
+                count++;
+            }
+            for (var k = 0; k < angka.length; k++) {
+                if (treasure[i][j] == angka[k]) {
+                    count -= treasure[i][j]
+                }
 
-  if (count == 0) {
-      return 'Harta karun tidak ditemukan'
-  } else {
-      return 'Berhasil memperoleh ' + count + ' harta karun'
-  }
+                if (count == 0) {
+                    return 'Harta karun telah direbut bajak laut lain!'
+                }
+            }
+        }
+    }
+
+    if (count == 0) {
+        return 'Harta karun tidak ditemukan'
+    } else {
+        return 'Berhasil memperoleh ' + count + ' harta karun'
+    }
 }
 
 

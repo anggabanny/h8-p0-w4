@@ -92,5 +92,4 @@ console.log(graduates([{
 //   ]
 // }
 
-
 console.log(graduates([])); //{}
