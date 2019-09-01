@@ -1,4 +1,7 @@
 function changeMe(arr) {
+    if (arr.length === 0) {
+        console.log('');
+    }
     var output = {}
     for(var i = 0; i < arr.length; i++){
         output.firsName = arr[i][0];
